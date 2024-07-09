@@ -94,5 +94,31 @@ namespace LoginDemoApp.Services
             }
         }
 
+        //public async Task<User> GetFullUserObject(string email)
+        //{
+        //    //Set URI to the specific function API
+        //    string url = $"{this.baseUrl}check";
+        //    try
+        //    {
+        //        //Call the server API
+        //        HttpResponseMessage response = await client.GetAsync(url);
+        //        //Check status
+        //        if (response.IsSuccessStatusCode)
+        //        {
+        //            //Extract the content as string
+        //            return 
+        //        }
+        //        else
+        //        {
+        //            return null;
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+
+        //        return null;
+        //    }
+        //}
+
     }
 }
